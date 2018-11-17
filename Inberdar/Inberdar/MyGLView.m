@@ -28,6 +28,7 @@
 //ふめーなえらーです？
 //エル・プサイ＿コングルー
 //シュタインズゲート
+//α世界線へと！！
 
 - (instancetype)initWithFrame:(NSRect)frame
 {
