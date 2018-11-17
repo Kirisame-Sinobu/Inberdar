@@ -29,6 +29,7 @@
 @implementation MyGLView
 
 //ふめーなえらーです？
+//エル・プサイ＿コングルー
 - (instancetype)initWithFrame:(NSRect)frame
 {
     NSOpenGLPixelFormatAttribute attrs[] =
