@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+//
+//  MyGLView.m
+//  Inberdar
+//
+//  Created by hw17a036 on 2018/11/17.
+//  Copyright © 2018年 Taiju Okuda. All rights reserved.
+//
+//
+//#import "MyGLView.h"
+//
+//@implementation MyGLView
+//
+//- (void)drawRect:(NSRect)dirtyRect {
+//    [super drawRect:dirtyRect];
+//    
+//    // Drawing code here.
+//}
+//
+//@end
+
+>>>>>>> 9a8917daf85c0bf9eb02080b5fa750ac30241da7
 #import "MyGLView.h"
 
 #import <OpenGL/OpenGL.h>

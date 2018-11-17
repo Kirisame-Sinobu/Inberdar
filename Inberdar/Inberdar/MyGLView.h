@@ -2,12 +2,12 @@
 //  MyGLView.h
 //  Inberdar
 //
-//  Created by hw17a042 on 2018/11/17.
+//  Created by hw17a036 on 2018/11/17.
 //  Copyright © 2018年 Taiju Okuda. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
-@interface MyGLView : NSObject
+@interface MyGLView : NSOpenGLView
 
 @end
