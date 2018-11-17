@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F424FABA219FD1EF006E85CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAB9219FD1EF006E85CF /* AppDelegate.m */; };
+		F424FABD219FD1EF006E85CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FABC219FD1EF006E85CF /* ViewController.m */; };
+		F424FABF219FD1EF006E85CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424FABE219FD1EF006E85CF /* Assets.xcassets */; };
+		F424FAC2219FD1EF006E85CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424FAC0219FD1EF006E85CF /* Main.storyboard */; };
+		F424FAC5219FD1EF006E85CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAC4219FD1EF006E85CF /* main.m */; };
+		F424FACF219FD584006E85CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424FACD219FD584006E85CF /* GLKit.framework */; };
+		F424FAD0219FD584006E85CF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424FACE219FD584006E85CF /* OpenGL.framework */; };
+		F424FAD6219FDA2D006E85CF /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAD5219FDA2D006E85CF /* MyGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F424FAB5219FD1EF006E85CF /* Inberdar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inberdar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424FAB8219FD1EF006E85CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F424FAB9219FD1EF006E85CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F424FABB219FD1EF006E85CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F424FABC219FD1EF006E85CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F424FABE219FD1EF006E85CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F424FAC1219FD1EF006E85CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F424FAC3219FD1EF006E85CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424FAC4219FD1EF006E85CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F424FAC6219FD1EF006E85CF /* Inberdar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inberdar.entitlements; sourceTree = "<group>"; };
+		F424FACD219FD584006E85CF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F424FACE219FD584006E85CF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F424FAD4219FDA2D006E85CF /* MyGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
+		F424FAD5219FDA2D006E85CF /* MyGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F424FAB2219FD1EF006E85CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424FACF219FD584006E85CF /* GLKit.framework in Frameworks */,
+				F424FAD0219FD584006E85CF /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F424FAAC219FD1EF006E85CF = {
+			isa = PBXGroup;
+			children = (
+				F424FAB7219FD1EF006E85CF /* Inberdar */,
+				F424FAB6219FD1EF006E85CF /* Products */,
+				F424FACC219FD584006E85CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F424FAB6219FD1EF006E85CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F424FAB5219FD1EF006E85CF /* Inberdar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F424FAB7219FD1EF006E85CF /* Inberdar */ = {
+			isa = PBXGroup;
+			children = (
+				F424FAB8219FD1EF006E85CF /* AppDelegate.h */,
+				F424FAB9219FD1EF006E85CF /* AppDelegate.m */,
+				F424FABB219FD1EF006E85CF /* ViewController.h */,
+				F424FABC219FD1EF006E85CF /* ViewController.m */,
+				F424FAD4219FDA2D006E85CF /* MyGLView.h */,
+				F424FAD5219FDA2D006E85CF /* MyGLView.m */,
+				F424FABE219FD1EF006E85CF /* Assets.xcassets */,
+				F424FAC0219FD1EF006E85CF /* Main.storyboard */,
+				F424FAC3219FD1EF006E85CF /* Info.plist */,
+				F424FAC4219FD1EF006E85CF /* main.m */,
+				F424FAC6219FD1EF006E85CF /* Inberdar.entitlements */,
+			);
+			path = Inberdar;
+			sourceTree = "<group>";
+		};
+		F424FACC219FD584006E85CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F424FACD219FD584006E85CF /* GLKit.framework */,
+				F424FACE219FD584006E85CF /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F424FAB4219FD1EF006E85CF /* Inberdar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424FAC9219FD1EF006E85CF /* Build configuration list for PBXNativeTarget "Inberdar" */;
+			buildPhases = (
+				F424FAB1219FD1EF006E85CF /* Sources */,
+				F424FAB2219FD1EF006E85CF /* Frameworks */,
+				F424FAB3219FD1EF006E85CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inberdar;
+			productName = Inberdar;
+			productReference = F424FAB5219FD1EF006E85CF /* Inberdar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F424FAAD219FD1EF006E85CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Taiju Okuda";
+				TargetAttributes = {
+					F424FAB4219FD1EF006E85CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F424FAB0219FD1EF006E85CF /* Build configuration list for PBXProject "Inberdar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F424FAAC219FD1EF006E85CF;
+			productRefGroup = F424FAB6219FD1EF006E85CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F424FAB4219FD1EF006E85CF /* Inberdar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F424FAB3219FD1EF006E85CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424FABF219FD1EF006E85CF /* Assets.xcassets in Resources */,
+				F424FAC2219FD1EF006E85CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F424FAB1219FD1EF006E85CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424FABD219FD1EF006E85CF /* ViewController.m in Sources */,
+				F424FAD6219FDA2D006E85CF /* MyGLView.m in Sources */,
+				F424FAC5219FD1EF006E85CF /* main.m in Sources */,
+				F424FABA219FD1EF006E85CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F424FAC0219FD1EF006E85CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F424FAC1219FD1EF006E85CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F424FAC7219FD1EF006E85CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F424FAC8219FD1EF006E85CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F424FACA219FD1EF006E85CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Inberdar/Inberdar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Inberdar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.Inberdar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F424FACB219FD1EF006E85CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Inberdar/Inberdar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Inberdar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.Inberdar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F424FAB0219FD1EF006E85CF /* Build configuration list for PBXProject "Inberdar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424FAC7219FD1EF006E85CF /* Debug */,
+				F424FAC8219FD1EF006E85CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F424FAC9219FD1EF006E85CF /* Build configuration list for PBXNativeTarget "Inberdar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424FACA219FD1EF006E85CF /* Debug */,
+				F424FACB219FD1EF006E85CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F424FAAD219FD1EF006E85CF /* Project object */;
+}
