@@ -19,8 +19,6 @@
     glView.translatesAutoresizingMaskIntoConstraints = YES;
     glView.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
     [self.view addSubview:glView];
-
-    // Do any additional setup after loading the view.
 }
 
 @end
