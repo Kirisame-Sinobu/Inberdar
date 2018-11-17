@@ -27,6 +27,8 @@
 
 //ふめーなえらーです？
 //エル・プサイ＿コングルー
+//シュタインズゲート
+
 - (instancetype)initWithFrame:(NSRect)frame
 {
     NSOpenGLPixelFormatAttribute attrs[] =
