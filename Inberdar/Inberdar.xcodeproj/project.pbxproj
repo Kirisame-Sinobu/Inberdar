@@ -14,7 +14,7 @@
 		F424FAC5219FD1EF006E85CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAC4219FD1EF006E85CF /* main.m */; };
 		F424FACF219FD584006E85CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424FACD219FD584006E85CF /* GLKit.framework */; };
 		F424FAD0219FD584006E85CF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424FACE219FD584006E85CF /* OpenGL.framework */; };
-		F424FAD6219FDA2D006E85CF /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAD5219FDA2D006E85CF /* MyGLView.m */; };
+		F4FB01BF219FE72A00BDD81C /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB01BE219FE72A00BDD81C /* MyGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		F424FAC6219FD1EF006E85CF /* Inberdar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inberdar.entitlements; sourceTree = "<group>"; };
 		F424FACD219FD584006E85CF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F424FACE219FD584006E85CF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		F424FAD4219FDA2D006E85CF /* MyGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
-		F424FAD5219FDA2D006E85CF /* MyGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
+		F4FB01BD219FE72A00BDD81C /* MyGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
+		F4FB01BE219FE72A00BDD81C /* MyGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				F424FAB9219FD1EF006E85CF /* AppDelegate.m */,
 				F424FABB219FD1EF006E85CF /* ViewController.h */,
 				F424FABC219FD1EF006E85CF /* ViewController.m */,
-				F424FAD4219FDA2D006E85CF /* MyGLView.h */,
-				F424FAD5219FDA2D006E85CF /* MyGLView.m */,
+				F4FB01BD219FE72A00BDD81C /* MyGLView.h */,
+				F4FB01BE219FE72A00BDD81C /* MyGLView.m */,
 				F424FABE219FD1EF006E85CF /* Assets.xcassets */,
 				F424FAC0219FD1EF006E85CF /* Main.storyboard */,
 				F424FAC3219FD1EF006E85CF /* Info.plist */,
@@ -162,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F424FABD219FD1EF006E85CF /* ViewController.m in Sources */,
-				F424FAD6219FDA2D006E85CF /* MyGLView.m in Sources */,
+				F4FB01BF219FE72A00BDD81C /* MyGLView.m in Sources */,
 				F424FAC5219FD1EF006E85CF /* main.m in Sources */,
 				F424FABA219FD1EF006E85CF /* AppDelegate.m in Sources */,
 			);
