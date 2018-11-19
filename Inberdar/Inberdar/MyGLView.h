@@ -10,4 +10,10 @@
 
 @interface MyGLView : NSOpenGLView
 
+///MyGLViewクラスのインスタンスにアクセスするメソッド
++ (MyGLView *)sharedInstance;
+
+///ディスプレイ・リンクの停止処理を行うメソッド
+- (void)stopDisplayLink;
+
 @end

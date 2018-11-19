@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyGLView.h"
 
 @interface AppDelegate ()
 
@@ -14,14 +15,11 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+///windowが閉じられた時ディスプレイ・リンク（unityのupdate的なの）が消される。
+- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication*)sender
+{
+    [[MyGLView sharedInstance] stopDisplayLink];
+    return NSTerminateNow;
 }
-
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
-}
-
 
 @end
