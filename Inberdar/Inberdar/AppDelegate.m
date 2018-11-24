@@ -27,7 +27,7 @@
 ///windowが閉じられた時ディスプレイ・リンク（unityのupdate的なの）が消される。
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication*)sender
 {
-    [[MyGLView sharedInstance] stopDisplayLink];
+    //[[MyGLView sharedInstance] stopDisplayLink];
     return NSTerminateNow;
 }
 
