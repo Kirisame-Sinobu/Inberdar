@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 
+>>>>>>> b67b90c5b48be4b095ea9de4758516b4f4f862c5
 //
 //  MyGLView.m
 //  Inberdar
@@ -19,6 +24,7 @@
 //
 //@end
 
+>>>>>>> 9a8917daf85c0bf9eb02080b5fa750ac30241da7
 #import "MyGLView.h"
 
 #import <OpenGL/OpenGL.h>
