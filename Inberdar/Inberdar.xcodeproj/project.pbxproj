@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0CEF05DC219FE8F600FA3D47 /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF05DB219FE8F600FA3D47 /* MyGLView.m */; };
+
 		F41F29DF21A134FC0006E63D /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F29DE21A134FC0006E63D /* WindowController.m */; };
+
 		F424FABA219FD1EF006E85CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAB9219FD1EF006E85CF /* AppDelegate.m */; };
 		F424FABD219FD1EF006E85CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FABC219FD1EF006E85CF /* ViewController.m */; };
 		F424FABF219FD1EF006E85CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424FABE219FD1EF006E85CF /* Assets.xcassets */; };
@@ -16,13 +18,16 @@
 		F424FAC5219FD1EF006E85CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAC4219FD1EF006E85CF /* main.m */; };
 		F424FACF219FD584006E85CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424FACD219FD584006E85CF /* GLKit.framework */; };
 		F424FAD0219FD584006E85CF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424FACE219FD584006E85CF /* OpenGL.framework */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CEF05DA219FE8F600FA3D47 /* MyGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
 		0CEF05DB219FE8F600FA3D47 /* MyGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
+
 		F41F29DD21A134FC0006E63D /* WindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		F41F29DE21A134FC0006E63D /* WindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+
 		F424FAB5219FD1EF006E85CF /* Inberdar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inberdar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F424FAB8219FD1EF006E85CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F424FAB9219FD1EF006E85CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +40,7 @@
 		F424FAC6219FD1EF006E85CF /* Inberdar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inberdar.entitlements; sourceTree = "<group>"; };
 		F424FACD219FD584006E85CF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F424FACE219FD584006E85CF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +82,16 @@
 				0CEF05DA219FE8F600FA3D47 /* MyGLView.h */,
 				0CEF05DB219FE8F600FA3D47 /* MyGLView.m */,
 				F424FABC219FD1EF006E85CF /* ViewController.m */,
+
 				F424FABE219FD1EF006E85CF /* Assets.xcassets */,
 				F424FAC0219FD1EF006E85CF /* Main.storyboard */,
 				F424FAC3219FD1EF006E85CF /* Info.plist */,
 				F424FAC4219FD1EF006E85CF /* main.m */,
 				F424FAC6219FD1EF006E85CF /* Inberdar.entitlements */,
+
 				F41F29DD21A134FC0006E63D /* WindowController.h */,
 				F41F29DE21A134FC0006E63D /* WindowController.m */,
+
 			);
 			path = Inberdar;
 			sourceTree = "<group>";
@@ -166,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				F41F29DF21A134FC0006E63D /* WindowController.m in Sources */,
 				F424FABD219FD1EF006E85CF /* ViewController.m in Sources */,
+
 				0CEF05DC219FE8F600FA3D47 /* MyGLView.m in Sources */,
 				F424FAC5219FD1EF006E85CF /* main.m in Sources */,
 				F424FABA219FD1EF006E85CF /* AppDelegate.m in Sources */,

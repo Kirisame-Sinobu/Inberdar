@@ -2,6 +2,7 @@
 //  WindowController.m
 //  Inberdar
 //
+
 //  Created by hw17a042 on 2018/11/18.
 //  Copyright © 2018年 Taiju Okuda. All rights reserved.
 //
@@ -14,7 +15,7 @@
 
 @implementation WindowController
 
-///ここでwindowサイズを決めている
+
 - (void)windowDidLoad {
     [super windowDidLoad];
     
@@ -22,6 +23,7 @@
     self.window.frameAutosaveName = @"Main Window";
     [self.window setContentSize:NSMakeSize(640, 480)];
 }
+
 
 ///windowが閉じられた時アプリケーションを終了するためのもの。
 - (void)windowWillLoadClose:(NSNotification *)notification{

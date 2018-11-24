@@ -24,6 +24,7 @@
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl3.h>
 
+
 //ふめーなえらーです？
 //エル・プサイ＿コングルー
 //シュタインズゲート
@@ -48,6 +49,7 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink,
         return kCVReturnSuccess;
     }
 }
+
 
 - (instancetype)initWithFrame:(NSRect)frame
 {
@@ -78,7 +80,8 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink,
 - (void)prepareOpenGL
 {
     [super prepareOpenGL];
-    
+
+
     glContext = [self openGLContext];
     
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
@@ -113,6 +116,7 @@ float PingPong(float t)
     
     [glContext flushBuffer];
     [glContext unlock];
+
 }
 
 @end
