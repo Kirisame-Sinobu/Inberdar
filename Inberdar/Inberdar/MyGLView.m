@@ -30,12 +30,7 @@
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl3.h>
 
-<<<<<<< HEAD
-@implementation MyGLView
 
-//ふめーなえらーです？
-//エル・プサイ＿コングルー
-=======
 //ふめーなえらーです？
 //エル・プサイ＿コングルー
 //シュタインズゲート

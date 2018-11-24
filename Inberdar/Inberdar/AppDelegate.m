@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-<<<<<<< HEAD
 =======
 #import "MyGLView.h"
 >>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
@@ -18,7 +17,6 @@
 
 @implementation AppDelegate
 
-<<<<<<< HEAD
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
 }
