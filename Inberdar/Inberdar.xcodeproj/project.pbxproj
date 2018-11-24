@@ -10,7 +10,6 @@
 		0CEF05DC219FE8F600FA3D47 /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEF05DB219FE8F600FA3D47 /* MyGLView.m */; };
 
 		F41F29DF21A134FC0006E63D /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41F29DE21A134FC0006E63D /* WindowController.m */; };
->>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
 		F424FABA219FD1EF006E85CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FAB9219FD1EF006E85CF /* AppDelegate.m */; };
 		F424FABD219FD1EF006E85CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F424FABC219FD1EF006E85CF /* ViewController.m */; };
 		F424FABF219FD1EF006E85CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424FABE219FD1EF006E85CF /* Assets.xcassets */; };
