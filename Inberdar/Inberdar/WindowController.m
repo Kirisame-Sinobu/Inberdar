@@ -40,7 +40,6 @@
         rect = [self.window frameRectForContentRect:rect];
         return  rect.size;
 //        return frameSize;
->>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
     }
 }
 
