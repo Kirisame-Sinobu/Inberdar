@@ -7,13 +7,9 @@
 //
 
 #import "AppDelegate.h"
-=======
 #import "MyGLView.h"
->>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
 
-@interface AppDelegate ()
 
-@end
 
 @implementation AppDelegate
 
@@ -27,7 +23,7 @@
 }
 
 
-=======
+
 ///windowが閉じられた時ディスプレイ・リンク（unityのupdate的なの）が消される。
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication*)sender
 {
@@ -35,5 +31,5 @@
     return NSTerminateNow;
 }
 
->>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
+
 @end
