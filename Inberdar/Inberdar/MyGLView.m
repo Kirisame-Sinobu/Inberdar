@@ -13,7 +13,7 @@
 //
 //- (void)drawRect:(NSRect)dirtyRect {
 //    [super drawRect:dirtyRect];
-//    
+//
 //    // Drawing code here.
 //}
 //
@@ -23,7 +23,6 @@
 
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl3.h>
-
 
 //ふめーなえらーです？
 //エル・プサイ＿コングルー
@@ -79,8 +78,6 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink,
 - (void)prepareOpenGL
 {
     [super prepareOpenGL];
-    
-    NSOpenGLContext *glContext = [self openGLContext];
     
     glContext = [self openGLContext];
     
