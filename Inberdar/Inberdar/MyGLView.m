@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 
+>>>>>>> b67b90c5b48be4b095ea9de4758516b4f4f862c5
 //
 //  MyGLView.m
 //  Inberdar
@@ -19,10 +24,12 @@
 //
 //@end
 
+>>>>>>> 9a8917daf85c0bf9eb02080b5fa750ac30241da7
 #import "MyGLView.h"
 
 #import <OpenGL/OpenGL.h>
 #import <OpenGL/gl3.h>
+
 
 //ふめーなえらーです？
 //エル・プサイ＿コングルー
@@ -49,6 +56,7 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink,
     }
 }
 
+>>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
 - (instancetype)initWithFrame:(NSRect)frame
 {
     NSOpenGLPixelFormatAttribute attrs[] =
@@ -79,6 +87,13 @@ static CVReturn DisplayLinkCallback(CVDisplayLinkRef displayLink,
 {
     [super prepareOpenGL];
     
+<<<<<<< HEAD
+    NSOpenGLContext *glContext = [self openGLContext];
+    
+    glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+    [glContext flushBuffer];
+=======
     glContext = [self openGLContext];
     
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
@@ -113,6 +128,7 @@ float PingPong(float t)
     
     [glContext flushBuffer];
     [glContext unlock];
+>>>>>>> 7138e851451c06a31b3157bbc6d5147370acfcf2
 }
 
 @end
